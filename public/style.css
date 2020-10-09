@@ -1,0 +1,228 @@
+#home-page{
+  background: linear-gradient(to right, #D1FAFF, #79e9f8);
+  color: #360568;
+}
+
+.icreate-logo{
+  font-family: 'Finger Paint', cursive;
+  color: #E26D5A !important;
+  font-weight: 900;
+}
+.icreate-navbar{
+  margin: 0 12% 14%;
+  background-attachment: fixed;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  z-index: 1;
+}
+
+.icreate-nav-links{ 
+  font-size: 1.3rem;
+  margin-left: 70px;
+}
+.centered-links{
+  margin: auto;
+}
+nav .navbar-nav li a{
+  color: #6A8EAE !important;
+  }
+nav .navbar-nav li a:hover{
+  color: black !important;
+}
+.phone-number{
+  font-size: 25px;
+  
+}
+.call-icon{
+  vertical-align: middle;
+}
+.language-button{
+  background-color: #E26D5A;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.language-button:hover{
+  color: black;
+}
+.language-dropdown{
+  background-color: transparent;
+  border: transparent;
+
+}
+.website-languages:hover{
+  transform: scale(1.2);
+}
+.dropdown-item{
+  margin-left: -17px;
+}
+.dropdown-item:hover{
+  background-color: transparent;
+}
+.country-flags{
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+}
+.home-page-centered-text{
+  text-align: center;
+  padding-bottom: 19.5%;
+}
+.centered-heading{
+  font-family: 'Finger Paint', cursive;
+  color: #360568;
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px 10px;
+}
+.centered-button1{
+  font-family: 'Quantico', sans-serif;
+  margin-right: 3%;
+  background-color: #E26D5A;
+  color: white;
+}
+.centered-button1:hover{
+  color: #363062 !important;
+  background: radial-gradient( #ebb2aa 50%, #E26D5A );
+}
+.centered-button2:hover{
+  background: radial-gradient( #bfb7ff 20%, #5c46ff);
+}
+
+.centered-button:hover{
+    color: black;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }  
+@keyframes example {
+  0%{
+    -ms-transform: scale(1); /* IE 9 */
+    transform: scale(1);
+  
+  }100% {  
+    -ms-transform: scale(1.3); /* IE 9 */
+    transform: scale(1.3);
+  }
+
+  }
+
+.centered-button2{
+  font-family: 'Quantico', sans-serif;
+}
+
+#team-page{
+  background-color: #4d4c7d;
+  padding: 14% 18.5%;
+  color: white;
+}
+
+.team-page-heading{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.member-name{
+  padding: 2%;
+  font-size: 1.5rem;
+  border: 1px solid white;
+  background-color: tomato  ;
+  text-align: center;
+}
+.left-container{
+  width: 70%;
+  display: inline-block;
+}
+.skills-btn{
+  margin-right: 5%;
+}
+.right-container{
+  width: 30%;
+  display: inline-block;
+  text-align: right;
+  margin-top: -4%;
+}
+.member-name{
+  margin-bottom: 8%;
+}
+.member-info{
+  margin-bottom: 5%;
+}
+.profile-image{
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+}
+
+
+#Portfolio-page{
+  background-color: #9BD1E5;
+  font-family: 'Finger Paint', cursive;
+}
+.portfolio-page-heading{
+  text-align: center;
+  padding-top: 5%;
+  font-size: 2.5rem;
+}
+.project-pictures{
+  margin: 5% 10%;
+}
+.project1{
+  text-align: center;
+}
+.project2{
+  text-align: center;
+}
+.project3{
+  text-align: center;
+}
+.portfolio-picture{
+  border-radius: 100%;
+  width: 100%;
+  height: auto;
+  margin-bottom: 5%;
+  border: solid 5px #6A8EAE;
+}
+.portfolio-picture:hover{
+  opacity: 50%;
+}
+
+.portfolio-description-heading{
+  font-size: 1.3rem;
+  text-align: center;
+  color: #360568;
+  padding-bottom: 5%;
+}
+
+/* Footer part of the website */
+.centralised-text{
+  text-align: center;
+}
+#footer-part{
+  margin-top: -3%;
+  text-align: center;
+  padding: 5%;
+  background-color: #363062;
+  color: white;
+}
+.contactus-heading{
+  margin-bottom: 2%;
+}
+.social-icons{
+  margin-right: 20px;
+  color: white;
+}
+.copyright-text{
+  font-family: 'Finger Paint', cursive;
+  text-align: center;
+  color: white;
+  margin-top: -3%;
+  background-color: #363062;
+  padding: 10px 10px 30px;
+  
+}
+span{
+  opacity: 20%;
+  padding: 1% 2%;
+  border: 1px solid white;
+
+}
